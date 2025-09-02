@@ -60,7 +60,7 @@ Welcome to my portfolio! I'm a passionate and detail-oriented System Administrat
 Feel free to reach out if you'd like to collaborate or have questions about any of these projects:
 
 - **Email**: muhindi17@gmail.com  
-- **LinkedIn**: [linkedin.com/in/stephen-m-maina](www.linkedin.com/in/stephen-m-maina)  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
 - **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
 
 ---
