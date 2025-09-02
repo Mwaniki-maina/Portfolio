@@ -11,10 +11,10 @@ Welcome to my portfolio! I'm a passionate and detail-oriented System Administrat
 - **Tools**: Hyper-V, Windows Server 2019, PowerShell
 - **Highlights**: Automated user creation and OU structure using PowerShell.
 
-### 2. Linux Server Hardening
-- **Description**: Secured a Ubuntu server following CIS benchmarks.
-- **Tools**: UFW, Fail2Ban, auditd
-- **Highlights**: Reduced vulnerability score by 60% using custom scripts.
+### 2. MDM installation and configurations
+- **Description**: Created a manage engine endpoint central for monitoring computers and configured MDM on the machines.
+- **Tools**: Manage engine enndpoint agent and ManageEngine_MDMLaptopEnrollment agent
+- **Highlights**: Enabled MDM on the laptops and corporate mobile phones.
 
 ### 3. Automated Backup System
 - **Description**: Developed a scheduled backup solution for critical files and databases.
