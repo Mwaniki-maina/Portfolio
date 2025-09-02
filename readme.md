@@ -26,6 +26,13 @@ Welcome to my portfolio! I'm a passionate and detail-oriented System Administrat
 - **Tools**: EC2, S3, IAM, CloudWatch
 - **Highlights**: Configured auto-scaling and monitoring alerts.
 
+### 5. Networking
+- **Description**: i. Did a network set up of a computer lab with 100 computers.
+                   ii. Assisted in fibre insatalation and fibre splicing to the istitution
+                   
+- **Tools**: Cat6 E networking Cable, RJ45 connectors and RJ45 keystones jacks
+- **Highlights**: Configured the devices to have one networking class.
+
 ---
 
 ## 🧰 Skills & Tools
