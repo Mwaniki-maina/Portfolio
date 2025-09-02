@@ -1,4 +1,4 @@
-# 🛠️ System Administrator Portfolio
+# 🛠️ Stephen Maina Portfolio
 
 Welcome to my portfolio! I'm a passionate and detail-oriented System Administrator with hands-on experience in managing IT infrastructure, automating tasks, and ensuring system reliability and security. This repository showcases some of my key projects, scripts, and configurations that reflect my technical skills and problem-solving mindset.
 
