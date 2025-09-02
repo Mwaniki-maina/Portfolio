@@ -13,7 +13,7 @@ Welcome to my portfolio! I'm a passionate and detail-oriented System Administrat
 
 ### 2. MDM installation and configurations
 - **Description**: Created a manage engine endpoint central for monitoring computers and configured MDM on the machines.
-- **Tools**: Manage engine enndpoint agent and ManageEngine_MDMLaptopEnrollment agent
+- **Tools**: Manage engine endpoint agent and ManageEngine_MDMLaptopEnrollment agent
 - **Highlights**: Enabled MDM on the laptops and corporate mobile phones.
 
 ### 3. Automated Backup System
