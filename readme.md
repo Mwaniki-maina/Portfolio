@@ -38,10 +38,10 @@ Welcome to my portfolio! I'm a passionate and detail-oriented System Administrat
 
 ## 🧰 Skills & Tools
 
-- **Operating Systems**: Windows Server, Ubuntu, CentOS  
-- **Scripting**: PowerShell, Bash  
-- **Monitoring**: Nagios, Zabbix  
-- **Virtualization**: VMware, Hyper-V  
+- **Operating Systems**: Windows Server, Ubuntu, Suse serverOS  
+- **Scripting**: PowerShell, Terminal  
+- **Monitoring**: Motadata  
+- **Virtualization**: VMware, Virtual box  
 - **Cloud Platforms**: AWS, Azure  
 - **Security**: Firewall configuration, patch management, user access control
 
