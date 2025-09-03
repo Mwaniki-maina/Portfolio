@@ -66,9 +66,9 @@ This project documents a comprehensive Vulnerability Assessment and Penetration 
 
 For questions or collaboration, feel free to reach out:
 
-- **Email**: your.email@example.com  
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)  
-- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
 
 ---
 
