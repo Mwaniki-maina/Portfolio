@@ -1,7 +1,12 @@
 # 🛠️ Stephen Maina Portfolio
 
-Welcome to my portfolio! I'm a passionate and detail-oriented System Administrator with hands-on experience in managing IT infrastructure, automating tasks, and ensuring system reliability and security. This repository showcases some of my key projects, scripts, and configurations that reflect my technical skills and problem-solving mindset.
+Hello! I'm a dedicated and detail-oriented System Administrator with hands-on experience in managing, securing, and optimizing enterprise IT infrastructure. I specialize in system automation, network administration, server management, and ensuring high availability and security across complex environments.
 
+This portfolio highlights key projects, custom scripts, configuration templates, and solutions I've developed to streamline operations, enhance system reliability, and resolve real-world technical challenges. Each project reflects my commitment to efficiency, scalability, and continuous learning in the ever-evolving world of IT.
+
+Whether it's automating repetitive tasks, troubleshooting critical system issues, or implementing robust security practices, I strive to deliver reliable and future-ready solutions.
+
+Feel free to explore my work—and don’t hesitate to reach out if you’d like to collaborate or discuss opportunities!
 ---
 
 ## 📂 Projects
