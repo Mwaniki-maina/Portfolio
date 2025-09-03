@@ -34,6 +34,11 @@ Welcome to my portfolio! I'm a passionate and detail-oriented System Administrat
 - **Tools**: Cat6 E networking Cable, RJ45 connectors and RJ45 keystones jacks
 - **Highlights**: Configured the devices to have one networking class.
 
+ ### 6. Vapt
+- **Description**: Did a Vapt on an ecomerce site.
+- **Tools**: Zap, parrot OS and Nmap
+- **Highlights**: Testing the vulnerabilities of the site.  
+  [view more here] (/Vapt/vapt.md)
 ---
 
 ## 🧰 Skills & Tools
