@@ -62,6 +62,7 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
             viii The inventory of all the assetswithin the organization
 - **Tools**: Notebook, an excell sheet and a check list
 - **Highlights**: Identifying the vurnerabities within the organization.
+- [view more here](Network/Network.md)
 
 ---
 
