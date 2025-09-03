@@ -1,4 +1,4 @@
-# 🔐 VAPT Project:    
+# 🔐 VAPT Project:   
 This project documents a comprehensive Vulnerability Assessment and Penetration Testing (VAPT) exercise conducted using **Parrot OS** and **OWASP ZAP**. The targets were two web applications—one hosted on **Windows** and the other on **Linux**. The goal was to identify security flaws, assess risk levels, and provide actionable remediation steps.
 
 ---
@@ -66,10 +66,9 @@ This project documents a comprehensive Vulnerability Assessment and Penetration 
 
 For questions or collaboration, feel free to reach out:
 
-- **Email**: muhindi17@gmail.com  
-- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
-- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
-
+- **Email**: your.email@example.com  
+- **GitHub**: [github.com/yourusername](https://github.com/yourusername)  
+- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 
 ---
 
