@@ -70,6 +70,12 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
 - **Highlights**: Identifying the vurnerabities within the organization.
 - [view more here](Infrastructure_Review/Infrastructure.md)
 
+ ### 8. Cable Management 
+- **Description**: Doing cable managent and lableing for easier tracing.
+- **Tools**: Network tester and Cable tags
+- **Highlights**: Easier identification of cables for easier tracing.  
+- [view more here](Vapt/Vapt.md)
+
 ---
 
 ## 🧰 Skills & Tools
