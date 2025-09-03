@@ -1,98 +1,87 @@
- # 📡 AI Media Hub for TVET Schools
+# 🖥️ Endpoint Monitoring & MDM Configuration Project
 
-This project documents the development and deployment of a **Content Sharing Device (Media Hub)** designed to stream AI educational content to **TVET institutions** across the country. The Media Hub enables both **offline and cloud-synced content delivery**, ensuring accessibility in areas with limited or no internet connectivity.
-
----
-
-## 🎯 Project Purpose
-
-To provide scalable, offline-accessible AI learning resources to students and instructors in TVET schools, using a locally hosted Media Hub that supports mobile and desktop access across various network configurations.
+This project outlines the deployment and configuration of **ManageEngine Endpoint Central** for centralized monitoring, management, and security enforcement across organizational computers and mobile devices. The implementation included setting up the Endpoint Central server, enrolling devices, and configuring **Mobile Device Management (MDM)** policies to ensure compliance and control.
 
 ---
 
-## 🧰 Technology Stack
+## 🎯 Project Objectives
 
-- **Operating System**: Linux (Debian-based)
-- **Configuration Tool**: Mobaxterm (SSH, SCP, terminal access)
-- **Content Management**: CAdmin App (offline upload & AWS sync)
-- **Cloud Integration**: AWS S3 for centralized content updates
-- **Access Methods**:
-  - 📱 Android APK (offline playback after download)
-  - 🌐 Browser-based access via Wi-Fi or LAN
+- Deploy Endpoint Central for real-time monitoring and remote management of endpoints
+- Enroll and manage Windows, macOS, and mobile devices
+- Implement MDM policies for secure mobile access and data protection
+- Automate patching, software deployment, and asset tracking
 
 ---
 
-## 🛠️ Key Features
+## 🛠️ Tools & Technologies
 
-- 🔄 **Offline & Online Sync**  
-  Content is uploaded manually via the **CAdmin App** or synced from **AWS S3** using scheduled scripts.
-
-- 🧑‍💻 **Admin Configuration**  
-  Admins use **Mobaxterm** to:
-  - Configure network settings
-  - Manage sync scripts
-  - Monitor logs and system health
-
-- 📲 **Dual Access Modes**  
-  - **APK**: Android users can download content and access it offline from anywhere  
-  - **Browser**: Accessible via Wi-Fi or LAN on mobile and desktop devices
-
-- 📡 **Local Broadcasting**  
-  The Media Hub creates its own Wi-Fi network, allowing users to connect without internet access.
-
-- 🌐 **LAN Distribution**  
-  For wider coverage, the Media Hub connects to existing LAN infrastructure and distributes content via switches and access points.
+- **Platform**: ManageEngine Endpoint Central (On-Prem or Cloud)
+- **Devices Managed**: Windows PCs, Android tablets, iPads, iPhones
+- **MDM Protocols**: Apple DEP, Android Enterprise, Windows MDM
+- **Access Tools**: Web Console, Remote Control, Reports Dashboard
 
 ---
 
-## 🧪 Implementation Workflow
+## ⚙️ Implementation Steps
 
-### 1. Content Upload
-- Admins use **CAdmin App** to upload content offline via USB or local network
-- Alternatively, content is synced from **AWS S3** using cron jobs or manual triggers
+### 1. 🧑‍💻 Endpoint Central Setup
+- Installed and configured Endpoint Central server
+- Created user roles and access permissions
+- Integrated Active Directory for device discovery
+- Enabled remote control and screen sharing features
 
-### 2. Device Configuration
-- Accessed via **Mobaxterm** for:
-  - Network setup (Wi-Fi hotspot or LAN)
-  - Firewall and access control
-  - Sync script management
+### 2. 📱 MDM Configuration
+- Enabled MDM module in Endpoint Central
+- Registered organization with Apple and Android MDM services
+- Created and applied device profiles:
+  - Wi-Fi settings
+  - Email configuration
+  - App restrictions
+  - Security policies (passcode, encryption, remote wipe)
 
-### 3. User Access
-- **Mobile Users**:
-  - Connect to Media Hub Wi-Fi or LAN
-  - Use APK to browse and download content
-  - Access downloaded content offline from anywhere
+### 3. 🖥️ Device Enrollment
+- Enrolled Windows and macOS endpoints via agent installation
+- Enrolled mobile devices via QR code and email invitation
+- Verified device compliance and policy enforcement
 
-- **Desktop Users**:
-  - Connect via browser using local IP or hostname
-  - Stream or download content directly
+### 4. 🔄 Monitoring & Automation
+- Set up automated patch deployment schedules
+- Configured alerts for unauthorized software and device health
+- Generated reports for asset inventory, usage, and compliance
 
 ---
 
-## 📊 Deployment Impact
+## 🔐 Security Policies Enforced
+
+- Mandatory device encryption
+- Remote lock and wipe capabilities
+- App blacklisting and whitelisting
+- Geo-tracking and location-based restrictions
+- Regular patch updates and vulnerability scans
+
+---
+
+## 📊 Outcomes
 
 | Metric                     | Value              |
 |---------------------------|--------------------|
-| Schools Deployed          | 50+                |
-| Students Reached          | 10,000+            |
-| AI Modules Delivered      | 150+               |
-| Offline Sync Frequency    | Weekly             |
-| Instructor Satisfaction   | 95% (Survey)       |
+| Devices Enrolled          | 300+               |
+| Mobile Devices Managed    | 120+               |
+| Patch Compliance Rate     | 98%                |
+| Remote Actions Executed   | 250+               |
+| MDM Policy Coverage       | 100% of mobile fleet |
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Contents
 
 ```plaintext
 ├── setup/
-│   └── mobaxterm_config.md
-├── sync/
-│   └── aws_sync_script.sh
-├── apk/
-│   └── ai_mediahub.apk
-├── content/
-│   └── sample_modules/
+│   └── endpoint_central_installation.md
+├── mdm/
+│   └── device_profile_config.md
+├── reports/
+│   └── compliance_summary.pdf
 ├── docs/
-│   └── deployment_guide.md
-│   └── user_manual.pdf
-
+│   └── user_enrollment_guide.md
+│   └── admin_console_walkthrough.md
