@@ -48,7 +48,7 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
                    v creating network VLANs 
 - **Tools**: Cat6 E networking Cable, RJ45 connectors and RJ45 keystones jacks
 - **Highlights**: Configured the devices to have one networking class.
-- [view more here](Network/Network_set-up.md)
+- [view more here](Network/Networking.md)
 
  ### 6. Vapt
 - **Description**: Did a Vapt on an ecomerce site.
