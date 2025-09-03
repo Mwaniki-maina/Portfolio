@@ -27,10 +27,11 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
 - **Tools**: rsync, cron, Bash
 - **Highlights**: Implemented email alerts and logging for backup status.
 
-### 4. Cloud Infrastructure Deployment
-- **Description**: Deployed a scalable web app infrastructure on AWS.
-- **Tools**: EC2, S3, IAM, CloudWatch
-- **Highlights**: Configured auto-scaling and monitoring alerts.
+### 4. AiSteam Content Sharing Solution
+- **Description**: Configured and set a content sharing device( media hub) for sharing contents without requiring internet.
+- **Tools**: Mobaxterm and CAdmin
+- **Highlights**: Providing an offline solution for content sharing.
+- [view more here](AiStream/AiStream.md)
 
 ### 5. Networking
 - **Description**:  
