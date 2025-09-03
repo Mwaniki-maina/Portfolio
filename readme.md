@@ -17,15 +17,18 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
 - **Tools**: Hyper-V, Windows Server 2019, PowerShell
 - **Highlights**: Automated user creation and OU structure using PowerShell.
 
-### 2. MDM installation and configurations
+### 2.Endpoint Centra, MDM installation and configurations
 - **Description**: Created a manage engine endpoint central for monitoring computers and configured MDM on the machines.
 - **Tools**: Manage engine endpoint agent and ManageEngine_MDMLaptopEnrollment agent
 - **Highlights**: Enabled MDM on the laptops and corporate mobile phones.
 
-### 3. Automated Backup System
-- **Description**: Developed a scheduled backup solution for critical files and databases.
-- **Tools**: rsync, cron, Bash
-- **Highlights**: Implemented email alerts and logging for backup status.
+### 3. Linux sever Set-up
+- **Description**:configured three linux suse servers.  
+              i. Active directory server
+              ii. File server
+              iii Mail Server
+- **Tools**: Putty
+- **Highlights**: Implemented the AD server, Mail server and File Server.
 
 ### 4. AiSteam Content Sharing Solution
 - **Description**: Configured and set a content sharing device( media hub) for sharing contents without requiring internet.
@@ -46,6 +49,20 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
 - **Tools**: Zap, parrot OS and Nmap
 - **Highlights**: Testing the vulnerabilities of the site.  
 - [view more here](Vapt/Vapt.md)
+
+### 7.Infrastructure Review
+- **Description**: Visited organizations with an aim of checking the following within,  
+            i. The network set-up, configurations, the network bandwidth, netork utilization, security method being used and the method used for security impplementation
+            ii. The servers i.e the number of servers and their uses and where they are located either on-premise or cloud
+            iii Back-up systems they have for data storage
+            iv Application they have in their system.
+            v Email system i.e the email sysytem that is used in the organization, the number of email addresses
+            vi Access control system in place
+            Vii Security in place i.e if there is an endpont system, the updates frequency, wheather MDM is implementede and others
+            viii The inventory of all the assetswithin the organization
+- **Tools**: Notebook, an excell sheet and a check list
+- **Highlights**: Identifying the vurnerabities within the organization.
+
 ---
 
 ## 🧰 Skills & Tools
