@@ -43,6 +43,7 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
                    
 - **Tools**: Cat6 E networking Cable, RJ45 connectors and RJ45 keystones jacks
 - **Highlights**: Configured the devices to have one networking class.
+- [view more here](MDM/MDM.md)
 
  ### 6. Vapt
 - **Description**: Did a Vapt on an ecomerce site.
