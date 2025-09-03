@@ -16,11 +16,13 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
 - **Description**: Configured a virtual lab with Windows Server, implemented AD DS, DNS, DHCP, and Group Policy.
 - **Tools**: Hyper-V, Windows Server 2019, PowerShell
 - **Highlights**: Automated user creation and OU structure using PowerShell.
+- [view more here](Active_Directory_set-up/AD.md)
 
 ### 2.Endpoint Centra, MDM installation and configurations
 - **Description**: Created a manage engine endpoint central for monitoring computers and configured MDM on the machines.
 - **Tools**: Manage engine endpoint agent and ManageEngine_MDMLaptopEnrollment agent
 - **Highlights**: Enabled MDM on the laptops and corporate mobile phones.
+- [view more here](MDM/MDM.md)
 
 ### 3. Linux sever Set-up
 - **Description**:configured three linux suse servers.  
@@ -29,6 +31,7 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
               iii Mail Server
 - **Tools**: Putty
 - **Highlights**: Implemented the AD server, Mail server and File Server.
+- [view more here](Linux_Suse/Suse.md)
 
 ### 4. AiSteam Content Sharing Solution
 - **Description**: Configured and set a content sharing device( media hub) for sharing contents without requiring internet.
@@ -43,7 +46,7 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
                    
 - **Tools**: Cat6 E networking Cable, RJ45 connectors and RJ45 keystones jacks
 - **Highlights**: Configured the devices to have one networking class.
-- [view more here](MDM/MDM.md)
+- [view more here](Network/Network.md)
 
  ### 6. Vapt
 - **Description**: Did a Vapt on an ecomerce site.
@@ -63,7 +66,7 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
             viii The inventory of all the assetswithin the organization
 - **Tools**: Notebook, an excell sheet and a check list
 - **Highlights**: Identifying the vurnerabities within the organization.
-- [view more here](Network/Network.md)
+- [view more here]()
 
 ---
 
