@@ -54,9 +54,10 @@ Welcome to my portfolio! I'm a passionate and detail-oriented System Administrat
 
 ## 📜 Certifications
 
-- Microsoft Certified: Azure Administrator Associate  
-- CompTIA Security+  
-- AWS Certified SysOps Administrator
+- certificate-of-completion-for-a-practical-introduction-to-cloud-computing  
+- AWS Clund Practitioner Essentials  
+- AWS Security Best Practice
+- Certified Cyber Security
 
 ---
 
