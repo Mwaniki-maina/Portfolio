@@ -1,98 +1,91 @@
- # 📡 AI Media Hub for TVET Schools
+# 🖥️ SUSE Linux Server Configuration Project
 
-This project documents the development and deployment of a **Content Sharing Device (Media Hub)** designed to stream AI educational content to **TVET institutions** across the country. The Media Hub enables both **offline and cloud-synced content delivery**, ensuring accessibility in areas with limited or no internet connectivity.
-
----
-
-## 🎯 Project Purpose
-
-To provide scalable, offline-accessible AI learning resources to students and instructors in TVET schools, using a locally hosted Media Hub that supports mobile and desktop access across various network configurations.
+This project outlines the configuration and deployment of three SUSE Linux Enterprise servers, each serving a distinct role within an organization's IT infrastructure. The servers were set up to provide centralized authentication, secure file sharing, and reliable email communication.
 
 ---
 
-## 🧰 Technology Stack
+## 🧭 Project Overview
 
-- **Operating System**: Linux (Debian-based)
-- **Configuration Tool**: Mobaxterm (SSH, SCP, terminal access)
-- **Content Management**: CAdmin App (offline upload & AWS sync)
-- **Cloud Integration**: AWS S3 for centralized content updates
-- **Access Methods**:
-  - 📱 Android APK (offline playback after download)
-  - 🌐 Browser-based access via Wi-Fi or LAN
+- **Operating System**: SUSE Linux Enterprise Server (SLES)
+- **Server Roles**:
+  1. Active Directory Server
+  2. File Server
+  3. Mail Server
 
 ---
 
-## 🛠️ Key Features
+## 🛠️ Server Configurations
 
-- 🔄 **Offline & Online Sync**  
-  Content is uploaded manually via the **CAdmin App** or synced from **AWS S3** using scheduled scripts.
+### 1. 🧑‍💼 Active Directory Server
 
-- 🧑‍💻 **Admin Configuration**  
-  Admins use **Mobaxterm** to:
-  - Configure network settings
-  - Manage sync scripts
-  - Monitor logs and system health
+- **Purpose**: Centralized user authentication and domain management
+- **Tools Used**:
+  - Samba (configured as an AD Domain Controller)
+  - Kerberos
+  - Winbind
+- **Key Tasks**:
+  - Installed and configured Samba in AD DC mode
+  - Set up Kerberos realm and DNS entries
+  - Created organizational units and user accounts
+  - Integrated Windows clients for domain login
 
-- 📲 **Dual Access Modes**  
-  - **APK**: Android users can download content and access it offline from anywhere  
-  - **Browser**: Accessible via Wi-Fi or LAN on mobile and desktop devices
+### 2. 📁 File Server
 
-- 📡 **Local Broadcasting**  
-  The Media Hub creates its own Wi-Fi network, allowing users to connect without internet access.
+- **Purpose**: Secure file sharing across departments
+- **Tools Used**:
+  - Samba (for SMB/CIFS shares)
+  - NFS (for Linux clients)
+  - ACLs and quota management
+- **Key Tasks**:
+  - Created shared directories with department-level access
+  - Configured Samba shares with authentication
+  - Enabled disk quotas and auditing
+  - Mounted shares on client machines (Windows/Linux)
 
-- 🌐 **LAN Distribution**  
-  For wider coverage, the Media Hub connects to existing LAN infrastructure and distributes content via switches and access points.
+### 3. 📧 Mail Server
 
----
-
-## 🧪 Implementation Workflow
-
-### 1. Content Upload
-- Admins use **CAdmin App** to upload content offline via USB or local network
-- Alternatively, content is synced from **AWS S3** using cron jobs or manual triggers
-
-### 2. Device Configuration
-- Accessed via **Mobaxterm** for:
-  - Network setup (Wi-Fi hotspot or LAN)
-  - Firewall and access control
-  - Sync script management
-
-### 3. User Access
-- **Mobile Users**:
-  - Connect to Media Hub Wi-Fi or LAN
-  - Use APK to browse and download content
-  - Access downloaded content offline from anywhere
-
-- **Desktop Users**:
-  - Connect via browser using local IP or hostname
-  - Stream or download content directly
+- **Purpose**: Internal and external email communication
+- **Tools Used**:
+  - Postfix (SMTP)
+  - Dovecot (IMAP/POP3)
+  - SpamAssassin & ClamAV (security)
+  - Roundcube (webmail interface)
+- **Key Tasks**:
+  - Configured Postfix with TLS encryption and relay restrictions
+  - Set up Dovecot for mailbox access
+  - Integrated spam filtering and antivirus scanning
+  - Deployed Roundcube for browser-based email access
 
 ---
 
-## 📊 Deployment Impact
+## 🔐 Security Measures
 
-| Metric                     | Value              |
-|---------------------------|--------------------|
-| Schools Deployed          | 50+                |
-| Students Reached          | 10,000+            |
-| AI Modules Delivered      | 150+               |
-| Offline Sync Frequency    | Weekly             |
-| Instructor Satisfaction   | 95% (Survey)       |
+- Enabled firewall rules for each service
+- Configured fail2ban for brute-force protection
+- Applied regular updates and patches
+- Enforced strong password policies and user access controls
 
 ---
 
-## 📁 Repository Structure
+## 📊 Deployment Summary
+
+| Server Role         | IP Address     | Location       | Status     |
+|---------------------|----------------|----------------|------------|
+| Active Directory    | 192.168.1.10   | Data Center A  | ✅ Online  |
+| File Server         | 192.168.1.20   | Data Center A  | ✅ Online  |
+| Mail Server         | 192.168.1.30   | Data Center A  | ✅ Online  |
+
+---
+
+## 📁 Repository Contents
 
 ```plaintext
-├── setup/
-│   └── mobaxterm_config.md
-├── sync/
-│   └── aws_sync_script.sh
-├── apk/
-│   └── ai_mediahub.apk
-├── content/
-│   └── sample_modules/
+├── ad_server/
+│   └── samba_ad_config.md
+├── file_server/
+│   └── smb_nfs_setup.md
+├── mail_server/
+│   └── postfix_dovecot_config.md
 ├── docs/
-│   └── deployment_guide.md
-│   └── user_manual.pdf
-
+│   └── deployment_guide.pdf
+│   └── security_hardening.md

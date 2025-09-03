@@ -1,132 +1,78 @@
-# 🧩 IT Infrastructure Audit Project
+# 🌐 Network Infrastructure Deployment Project
 
-This project documents a comprehensive audit conducted across multiple organizations to evaluate their IT infrastructure, focusing on network setup, server architecture, data protection mechanisms, application landscape, email systems, access control, and endpoint security. The goal was to assess operational efficiency, identify vulnerabilities, and recommend improvements aligned with best practices.
-
----
-
-## 🛰️ 1. Network Assessment
-
-### ✅ Scope
-- **Network Setup & Topology**: Reviewed LAN/WAN architecture, switch/router configurations, and segmentation
-- **Bandwidth & Utilization**: Measured throughput and peak usage using tools like NetFlow and SolarWinds
-- **Security Methods**:
-  - Firewalls (hardware/software)
-  - VLAN isolation
-  - Intrusion Detection/Prevention Systems (IDS/IPS)
-- **Implementation Techniques**:
-  - ACLs on routers/switches
-  - VPN for remote access
-  - Regular firmware updates and patching
+This project outlines the successful implementation of a robust and scalable network infrastructure for [Organization Name]. The deployment included physical and logical setup of networking components, fiber installation, and VLAN configuration to support secure and efficient communication across the institution.
 
 ---
 
-## 🖥️ 2. Server Infrastructure
+## 🧭 Project Objectives
 
-### ✅ Findings
-- **Number of Servers**: Ranged from 3 to 25 per organization
-- **Server Roles**:
-  - Domain Controllers
-  - File & Print Servers
-  - Application Servers
-  - Database Servers
-- **Location**:
-  - **On-Premise**: Majority of legacy systems
-  - **Cloud**: Azure and AWS used for scalability and redundancy
+- Establish a reliable and high-speed network backbone
+- Enable secure segmentation of services and departments via VLANs
+- Ensure future scalability and maintainability of the network
+- Provide stable internet and intranet connectivity across the institution
 
 ---
 
-## 💾 3. Backup & Data Storage
+## 🛠️ Tasks Completed
 
-### ✅ Backup Systems
-- **Solutions Used**:
-  - Veeam
-  - Acronis
-  - Windows Server Backup
-- **Storage Mediums**:
-  - NAS devices
-  - External HDDs
-  - Cloud storage (AWS S3, Azure Blob)
-- **Frequency**:
-  - Daily incremental + weekly full backups
-- **Retention Policies**:
-  - 30–90 days depending on compliance needs
+### 1. 🏗️ Network Setup
+- Designed and implemented the full network topology
+- Mapped out device connectivity and IP addressing scheme
+- Verified link integrity and throughput across all segments
 
----
+### 2. 🔌 Fiber Installation & Splicing
+- Assisted in laying fiber optic cables across key campus zones
+- Performed fiber splicing to ensure minimal signal loss
+- Tested fiber links using OTDR and light source tools
 
-## 🧩 4. Application Landscape
+### 3. 🗄️ Network Cabinet Setup
+- Installed structured network cabinets in designated server and access rooms
+- Organized patch panels, cable management trays, and power units
+- Labeled and documented all connections for future maintenance
 
-### ✅ Common Applications
-- ERP systems (SAP, Odoo)
-- HR & Payroll software
-- Inventory management tools
-- Custom-built web apps
-- Productivity suites (Microsoft 365, Google Workspace)
+### 4. 📡 Router & Switch Configuration
+- Configured core and edge routers with appropriate routing protocols
+- Set up managed switches with trunk and access ports
+- Enabled STP and port security features for redundancy and protection
 
----
-
-## 📧 5. Email Systems
-
-### ✅ Email Infrastructure
-- **Platforms Used**:
-  - Microsoft Exchange (on-prem/cloud)
-  - Google Workspace
-- **Number of Email Addresses**:
-  - Ranged from 50 to 500+ per organization
-- **Security Features**:
-  - SPF, DKIM, DMARC
-  - Email filtering and anti-phishing tools
+### 5. 🧩 VLAN Creation
+- Created VLANs for departments (e.g., Admin, Finance, Labs, Students)
+- Assigned VLAN IDs and configured inter-VLAN routing
+- Applied access control policies to isolate sensitive traffic
 
 ---
 
-## 🔐 6. Access Control Systems
+## 📊 Outcomes
 
-### ✅ Mechanisms in Place
-- Role-Based Access Control (RBAC)
-- Active Directory Group Policies
-- Biometric and RFID-based physical access
-- MFA for critical systems
-- Audit logs and access reviews conducted quarterly
-
----
-
-## 🛡️ 7. Endpoint & Security Systems
-
-### ✅ Security Measures
-- **Endpoint Protection**:
-  - Antivirus/EDR solutions (e.g., Bitdefender, CrowdStrike)
-  - Regular updates (weekly or automated)
-- **Mobile Device Management (MDM)**:
-  - Implemented in 60% of audited organizations
-  - Tools used: Microsoft Intune, ManageEngine
-- **Other Controls**:
-  - Patch management systems
-  - Device encryption
-  - USB port restrictions
-  - Security awareness training
+| Component              | Status       |
+|------------------------|--------------|
+| Network Backbone       | Fully deployed |
+| Fiber Connectivity     | Operational across campus |
+| Cabinets & Hardware    | Installed and documented |
+| Routing & Switching    | Configured and tested |
+| VLAN Segmentation      | Active and secure |
 
 ---
 
-## 📊 Summary & Recommendations
+## 📁 Documentation
 
-| Area                     | Status Summary         | Recommendation                          |
-|--------------------------|------------------------|------------------------------------------|
-| Network Security         | Generally strong       | Improve segmentation and IDS coverage    |
-| Server Management        | Mixed cloud adoption   | Migrate legacy systems to hybrid cloud   |
-| Backup Systems           | Mostly compliant       | Test restore procedures regularly        |
-| Email Security           | Adequate               | Enforce MFA and phishing simulations     |
-| Endpoint Protection      | Inconsistent updates   | Automate patching and expand MDM usage   |
+- `network_topology_diagram.png` – Visual layout of the deployed network  
+- `router_switch_config.txt` – Sample configuration files  
+- `vlan_plan.md` – VLAN structure and IP allocation  
+- `fiber_test_report.pdf` – Results from fiber link testing  
 
 ---
 
 ## 📫 Contact
 
-For further details, collaboration, or consulting inquiries:
+For technical support, collaboration, or future upgrades:
 
 - **Email**: muhindi17@gmail.com  
 - **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
 - **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
-
 ---
 
-> “A secure and efficient IT environment starts with visibility. This audit was a step toward smarter infrastructure decisions.”
+> “Building a strong network isn’t just about cables and configs—it’s about empowering people to connect, learn, and grow.”
+
+
 

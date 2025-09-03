@@ -1,98 +1,76 @@
- # 📡 AI Media Hub for TVET Schools
+# 🧪 Windows Server Virtual Lab Configuration
 
-This project documents the development and deployment of a **Content Sharing Device (Media Hub)** designed to stream AI educational content to **TVET institutions** across the country. The Media Hub enables both **offline and cloud-synced content delivery**, ensuring accessibility in areas with limited or no internet connectivity.
-
----
-
-## 🎯 Project Purpose
-
-To provide scalable, offline-accessible AI learning resources to students and instructors in TVET schools, using a locally hosted Media Hub that supports mobile and desktop access across various network configurations.
+This project documents the setup and configuration of a virtual lab environment using **Windows Server**, designed to simulate enterprise-level infrastructure services. The lab includes the deployment of **Active Directory Domain Services (AD DS)**, **DNS**, **DHCP**, and **Group Policy**, providing a hands-on platform for testing, learning, and administrative practice.
 
 ---
 
-## 🧰 Technology Stack
+## 🎯 Objectives
 
-- **Operating System**: Linux (Debian-based)
-- **Configuration Tool**: Mobaxterm (SSH, SCP, terminal access)
-- **Content Management**: CAdmin App (offline upload & AWS sync)
-- **Cloud Integration**: AWS S3 for centralized content updates
-- **Access Methods**:
-  - 📱 Android APK (offline playback after download)
-  - 🌐 Browser-based access via Wi-Fi or LAN
+- Create a virtualized Windows Server environment for infrastructure simulation
+- Implement core network services: AD DS, DNS, DHCP
+- Configure Group Policies for centralized management
+- Enable domain-joined client machines for testing and validation
 
 ---
 
-## 🛠️ Key Features
+## 🛠️ Lab Environment
 
-- 🔄 **Offline & Online Sync**  
-  Content is uploaded manually via the **CAdmin App** or synced from **AWS S3** using scheduled scripts.
-
-- 🧑‍💻 **Admin Configuration**  
-  Admins use **Mobaxterm** to:
-  - Configure network settings
-  - Manage sync scripts
-  - Monitor logs and system health
-
-- 📲 **Dual Access Modes**  
-  - **APK**: Android users can download content and access it offline from anywhere  
-  - **Browser**: Accessible via Wi-Fi or LAN on mobile and desktop devices
-
-- 📡 **Local Broadcasting**  
-  The Media Hub creates its own Wi-Fi network, allowing users to connect without internet access.
-
-- 🌐 **LAN Distribution**  
-  For wider coverage, the Media Hub connects to existing LAN infrastructure and distributes content via switches and access points.
+- **Platform**: VirtualBox / VMware Workstation
+- **Operating System**: Windows Server 2019 / 2022
+- **Client Machines**: Windows 10 / 11 (domain-joined)
+- **Network Mode**: Internal Network / NAT
 
 ---
 
-## 🧪 Implementation Workflow
+## ⚙️ Services Configured
 
-### 1. Content Upload
-- Admins use **CAdmin App** to upload content offline via USB or local network
-- Alternatively, content is synced from **AWS S3** using cron jobs or manual triggers
+### 1. 🧑‍💼 Active Directory Domain Services (AD DS)
+- Installed AD DS role and promoted server to Domain Controller
+- Created domain: `lab.local`
+- Added Organizational Units (OUs) for departments
+- Created user accounts and security groups
 
-### 2. Device Configuration
-- Accessed via **Mobaxterm** for:
-  - Network setup (Wi-Fi hotspot or LAN)
-  - Firewall and access control
-  - Sync script management
+### 2. 🌐 DNS (Domain Name System)
+- Configured DNS role during AD DS setup
+- Verified forward and reverse lookup zones
+- Ensured proper name resolution for domain clients
 
-### 3. User Access
-- **Mobile Users**:
-  - Connect to Media Hub Wi-Fi or LAN
-  - Use APK to browse and download content
-  - Access downloaded content offline from anywhere
+### 3. 📡 DHCP (Dynamic Host Configuration Protocol)
+- Installed DHCP role and authorized server
+- Created scope: `192.168.10.0/24`
+- Configured lease duration, reservations, and exclusions
+- Integrated DHCP with DNS for dynamic updates
 
-- **Desktop Users**:
-  - Connect via browser using local IP or hostname
-  - Stream or download content directly
-
----
-
-## 📊 Deployment Impact
-
-| Metric                     | Value              |
-|---------------------------|--------------------|
-| Schools Deployed          | 50+                |
-| Students Reached          | 10,000+            |
-| AI Modules Delivered      | 150+               |
-| Offline Sync Frequency    | Weekly             |
-| Instructor Satisfaction   | 95% (Survey)       |
+### 4. 🛡️ Group Policy
+- Created and linked GPOs to OUs
+- Policies applied:
+  - Password complexity and expiration
+  - Desktop wallpaper and login message
+  - Software restriction policies
+  - Drive mapping and printer deployment
 
 ---
 
-## 📁 Repository Structure
+## 🧪 Testing & Validation
+
+- Joined client machines to `lab.local` domain
+- Verified DHCP lease assignment and DNS resolution
+- Confirmed GPO application using `gpresult` and `RSOP`
+- Tested user login, group membership, and access control
+
+---
+
+## 📁 Repository Contents
 
 ```plaintext
-├── setup/
-│   └── mobaxterm_config.md
-├── sync/
-│   └── aws_sync_script.sh
-├── apk/
-│   └── ai_mediahub.apk
-├── content/
-│   └── sample_modules/
+├── ad_ds/
+│   └── domain_setup_steps.md
+├── dns/
+│   └── zone_config.md
+├── dhcp/
+│   └── scope_settings.md
+├── group_policy/
+│   └── gpo_templates.md
 ├── docs/
-│   └── deployment_guide.md
-│   └── user_manual.pdf
-
+│   └── lab_topology_diagram.png
+│   └── deployment_guide.pdf
