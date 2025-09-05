@@ -77,6 +77,14 @@ Feel free to explore my work—and don’t hesitate to reach out if you’d like
 - **Highlights**: Easier identification of cables for easier tracing.  
 - [view more here](Network/Cable_management.md)
 
+ ### 9. IT-Systems-&-Infrastructure-Management 
+- **Description**: Doing cable managent and lableing for easier tracing.
+- **Tools**: Network tester and Cable tags
+- **Highlights**: Easier identification of cables for easier tracing.  
+- [view more here](Network/Cable_management.md)
+
+
+
 ---
 
 ## 🧰 Skills & Tools
