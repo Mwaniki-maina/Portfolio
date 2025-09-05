@@ -21,40 +21,51 @@ This document outlines my responsibilities and accomplishments in managing and m
 - Monitored network bandwidth and utilization using tools like NetFlow and Wireshark
 - Applied security measures including ACLs, port security, and intrusion detection
 - Conducted periodic audits to ensure network integrity and compliance
-
+- [view more here](/IT-Systems-&-Infrastructure-Management/M365-&-Domain.md)
 ---
 
-## 🖥️ 3. Computer Servicing & Maintenance
+### 3. Networking
+- **Description**:  
+                   i. Did a network set up for the whole organization.  
+                   ii. Assisted in fibre insatalation and fibre splicing to the istitution
+                   iii setting up network cabinets
+                   iv configuring routers and setting up the network switches
+                   v creating network VLANs 
+- **Tools**: Cat6 E networking Cable, RJ45 connectors and RJ45 keystones jacks
+- **Highlights**: Configured the devices to have one networking class.
+- [view more here](/IT-Systems-&-Infrastructure-Management/M365-&-Domain.md)
+
+## 🖥️ 4. Computer Servicing & Maintenance
 
 - Performed routine hardware diagnostics and upgrades
 - Installed and updated operating systems and drivers
 - Resolved software conflicts and system errors
 - Maintained inventory of organizational devices and peripherals
 - Ensured endpoint protection and patch compliance across all machines
-
+- [view more here](/IT-Systems-&-Infrastructure-Management/M365-&-Domain.md)
 ---
 
-## 🧬 4. Biometric System Configuration & Staff Lifecycle Management
+## 🧬 5. Biometric System Configuration & Staff Lifecycle Management
 
 - Installed and configured biometric attendance systems
 - Onboarded new staff by enrolling biometric profiles and assigning access levels
 - Offboarded departing staff by revoking access and archiving attendance data
 - Integrated biometric systems with HR and payroll platforms
 - Provided training and support for biometric device usage
-
+- [view more here](/IT-Systems-&-Infrastructure-Management/M365-&-Domain.md)
 ---
 
-## 🖥️ 5. Windows & Ubuntu OS Maintenance
+## 🖥️ 6. Windows & Ubuntu OS Maintenance
 
 - Managed updates, patches, and system health checks for Windows and Ubuntu endpoints
 - Configured system services, user permissions, and startup routines
 - Automated tasks using PowerShell and Bash scripts
 - Performed disk cleanup, backup scheduling, and system recovery procedures
 - Ensured cross-platform compatibility and secure configurations
-
+- [view more here](/IT-Systems-&-Infrastructure-Management/M365-&-Domain.md)
 ---
 
-## 🔐 6. VAPT & Cybersecurity Support
+## 🔐 7. VAPT & Cybersecurity Support
 
 - Assisted in Vulnerability Assessment and Penetration Testing (VAPT) exercises
 - Used tools like OWASP ZAP, Nmap, and Nessus to identify security gaps
@@ -64,7 +75,7 @@ This document outlines my responsibilities and accomplishments in managing and m
 
 ---
 
-## 🎥 7. CCTV System Maintenance & Monitoring
+## 🎥 8. CCTV System Maintenance & Monitoring
 
 - Installed and configured IP-based CCTV systems
 - Monitored live feeds and reviewed archived footage for incident analysis
@@ -74,7 +85,7 @@ This document outlines my responsibilities and accomplishments in managing and m
 
 ---
 
-## 🔐 8. Microsoft 365 User Access Management
+## 🔐 9. Microsoft 365 User Access Management
 
 - Managed user roles and permissions across Microsoft 365 apps
 - Implemented access control policies based on job roles and departments
