@@ -1,98 +1,110 @@
-# 🛠️ IT Systems & Infrastructure Management Portfolio
+# 🛠️ IT Systems & Infrastructure Operations
 
-This document outlines my responsibilities and accomplishments in managing and maintaining enterprise IT systems, with a focus on Microsoft 365 administration, network security, endpoint servicing, biometric systems, and cybersecurity support. The work spans across both Windows and Ubuntu environments, ensuring operational continuity and security for organizational assets.
-
----
-
-## 🧑‍💼 1. Microsoft 365 & Domain Systems Administration
-
-- Managed Microsoft 365 tenant including Exchange Online, SharePoint, Teams, and OneDrive
-- Created and managed user accounts, groups, and licenses
-- Configured security policies including MFA, conditional access, and data loss prevention (DLP)
-- Administered domain-connected machines via Active Directory and Group Policy
-- Monitored device compliance and performed remote troubleshooting
+This document outlines key responsibilities and tasks performed in managing organizational IT systems, including Microsoft 365 administration, network security, endpoint maintenance, biometric systems, and cybersecurity support. Visuals are included to illustrate configurations and workflows.
 
 ---
 
-## 🌐 2. Network Administration & Security
+## 📧 Microsoft 365 & Domain-Connected Systems
 
-- Configured and maintained routers, switches, and firewalls
-- Implemented VLANs for traffic segmentation and performance optimization
-- Monitored network bandwidth and utilization using tools like NetFlow and Wireshark
-- Applied security measures including ACLs, port security, and intrusion detection
-- Conducted periodic audits to ensure network integrity and compliance
+- Administered Microsoft 365 tenant: Exchange, SharePoint, Teams
+- Managed domain-connected machines via Active Directory
+- Configured user accounts, licenses, and security policies
 
----
-
-## 🖥️ 3. Computer Servicing & Maintenance
-
-- Performed routine hardware diagnostics and upgrades
-- Installed and updated operating systems and drivers
-- Resolved software conflicts and system errors
-- Maintained inventory of organizational devices and peripherals
-- Ensured endpoint protection and patch compliance across all machines
+**Image Suggestion**:  
+![Microsoft 365 Admin Center Dashboard](images/m365_admin_dashboard.png)
 
 ---
 
-## 🧬 4. Biometric System Configuration & Staff Lifecycle Management
+## 🌐 Network Administration & Security
 
-- Installed and configured biometric attendance systems
-- Onboarded new staff by enrolling biometric profiles and assigning access levels
-- Offboarded departing staff by revoking access and archiving attendance data
-- Integrated biometric systems with HR and payroll platforms
-- Provided training and support for biometric device usage
+- Configured routers and switches for optimal performance
+- Implemented VLANs for traffic segmentation
+- Monitored bandwidth and utilization
+- Applied firewall rules and intrusion detection systems
 
----
-
-## 🖥️ 5. Windows & Ubuntu OS Maintenance
-
-- Managed updates, patches, and system health checks for Windows and Ubuntu endpoints
-- Configured system services, user permissions, and startup routines
-- Automated tasks using PowerShell and Bash scripts
-- Performed disk cleanup, backup scheduling, and system recovery procedures
-- Ensured cross-platform compatibility and secure configurations
+**Image Suggestion**:  
+![Network Topology Diagram](images/network_topology.png)
 
 ---
 
-## 🔐 6. VAPT & Cybersecurity Support
+## 🖥️ Computer Servicing & Maintenance
 
-- Assisted in Vulnerability Assessment and Penetration Testing (VAPT) exercises
-- Used tools like OWASP ZAP, Nmap, and Nessus to identify security gaps
-- Documented findings and recommended remediation strategies
-- Supported endpoint hardening and firewall rule updates
-- Participated in cybersecurity awareness and training initiatives
+- Diagnosed and repaired hardware issues
+- Installed and updated OS and drivers
+- Performed regular system health checks
+
+**Image Suggestion**:  
+![Workstation Maintenance](images/workstation_maintenance.jpg)
 
 ---
 
-## 🎥 7. CCTV System Maintenance & Monitoring
+## 🧬 Biometric System Configuration
+
+- Installed biometric attendance systems
+- Onboarded and offboarded staff with biometric profiles
+- Integrated biometric data with HR systems
+
+**Image Suggestion**:  
+![Biometric Device Setup](images/biometric_setup.png)
+
+---
+
+## 🖥️ OS Maintenance (Windows & Ubuntu)
+
+- Applied updates and patches
+- Configured system services and user permissions
+- Automated tasks using PowerShell and Bash
+
+**Image Suggestion**:  
+![Ubuntu Terminal Maintenance](images/ubuntu_terminal.png)
+
+---
+
+## 🔐 VAPT & Cybersecurity Support
+
+- Assisted in vulnerability assessments using tools like OWASP ZAP and Nmap
+- Documented findings and recommended remediation
+- Supported endpoint hardening and firewall updates
+
+**Image Suggestion**:  
+![VAPT Scan Results](images/vapt_scan_results.png)
+
+---
+
+## 🎥 CCTV System Maintenance & Monitoring
 
 - Installed and configured IP-based CCTV systems
-- Monitored live feeds and reviewed archived footage for incident analysis
-- Maintained DVR/NVR systems and ensured data retention policies
-- Diagnosed and resolved camera connectivity and power issues
-- Coordinated with security teams for surveillance coverage optimization
+- Monitored live feeds and archived footage
+- Diagnosed connectivity and power issues
+
+**Image Suggestion**:  
+![CCTV Monitoring Station](images/cctv_monitoring.jpg)
 
 ---
 
-## 🔐 8. Microsoft 365 User Access Management
+## 🔐 Microsoft 365 Access Management
 
-- Managed user roles and permissions across Microsoft 365 apps
-- Implemented access control policies based on job roles and departments
-- Audited login activity and access logs for compliance
-- Revoked access for offboarded users and reassigned resources
-- Ensured secure collaboration through shared mailbox and group settings
+- Managed user roles and permissions
+- Implemented MFA and conditional access
+- Audited login activity and access logs
+
+**Image Suggestion**:  
+![Access Control Settings](images/access_control_settings.png)
 
 ---
 
-## 📫 Contact
+## 📁 Repository Structure
 
-For collaboration, consulting, or technical support:
-
-- **Email**: muhindi17@gmail.com  
-- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
-- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
-- [Go back](/readme.md)
----
-
-> “Reliable systems, secure networks, and empowered users—this is the foundation of modern IT.”
-
+```plaintext
+├── images/
+│   ├── m365_admin_dashboard.png
+│   ├── network_topology.png
+│   ├── workstation_maintenance.jpg
+│   ├── biometric_setup.png
+│   ├── ubuntu_terminal.png
+│   ├── vapt_scan_results.png
+│   ├── cctv_monitoring.jpg
+│   └── access_control_settings.png
+├── docs/
+│   └── system_config_guides.md
+│   └── maintenance_schedule.pdf
