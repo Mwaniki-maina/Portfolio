@@ -81,18 +81,12 @@ To provide scalable, offline-accessible AI learning resources to students and in
 
 ---
 
-## 📁 Repository Structure
+## 📫 Contact
 
-```plaintext
-├── setup/
-│   └── mobaxterm_config.md
-├── sync/
-│   └── aws_sync_script.sh
-├── apk/
-│   └── ai_mediahub.apk
-├── content/
-│   └── sample_modules/
-├── docs/
-│   └── deployment_guide.md
-│   └── user_manual.pdf
+For technical support, collaboration, or future upgrades:
+
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+---
 
