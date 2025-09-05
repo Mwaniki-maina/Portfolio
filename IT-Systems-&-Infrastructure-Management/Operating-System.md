@@ -1,52 +1,84 @@
-# 🖥️ Windows & Ubuntu OS Maintenance
+# 🖥️ Windows & Ubuntu OS Installation, Software Setup & Maintenance
 
-This document outlines the routine maintenance, updates, and support tasks performed across **Windows** and **Ubuntu** operating systems in an enterprise environment. The goal was to ensure system stability, security, and performance for all endpoints under management.
+This document outlines the installation, configuration, and maintenance of **Windows** and **Ubuntu** operating systems across organizational devices. It also includes the deployment of essential supporting software and ongoing system health management to ensure performance, security, and user productivity.
 
 ---
 
 ## 🎯 Objectives
 
-- Maintain and update Windows and Ubuntu systems for optimal performance
-- Ensure security compliance through patching and configuration
-- Provide technical support and troubleshooting for OS-related issues
-- Automate routine tasks and streamline system administration
+- Install and configure Windows and Ubuntu operating systems on client and server machines
+- Deploy essential productivity, security, and utility software
+- Perform regular system maintenance and updates
+- Ensure secure, stable, and optimized computing environments
 
 ---
 
-## 🛠️ Key Responsibilities
+## 🛠️ Operating System Installation
 
-### 1. 🪟 Windows OS Maintenance
+### 🪟 Windows Installation
 
-- Installed and configured Windows 10/11 across organizational devices
-- Applied Windows updates and security patches via WSUS and manual rollout
-- Managed system services, startup programs, and scheduled tasks
-- Configured Group Policies for user restrictions, drive mappings, and desktop settings
-- Performed disk cleanup, defragmentation, and registry optimization
-- Resolved BSODs, driver conflicts, and application errors
+- Installed Windows 10/11 on desktops and laptops
+- Configured system settings, user accounts, and regional preferences
+- Joined devices to Active Directory domain (where applicable)
+- Activated Windows licenses and verified update channels
 
-### 2. 🐧 Ubuntu OS Maintenance
+### 🐧 Ubuntu Installation
 
-- Installed and configured Ubuntu LTS versions (18.04, 20.04, 22.04)
-- Applied updates using `apt` and automated patching scripts
-- Managed systemd services and cron jobs
-- Configured firewall rules using `ufw` and monitored logs via `journalctl`
-- Performed disk usage analysis and cleanup with tools like `ncdu` and `bleachbit`
-- Resolved boot issues, package conflicts, and permission errors
+- Installed Ubuntu LTS versions (18.04, 20.04, 22.04) on workstations and servers
+- Configured partitions, swap space, and bootloader settings
+- Set up user accounts and sudo privileges
+- Installed essential packages using `apt` and Snap
 
-### 3. 🔐 Security & Compliance
+---
 
-- Enabled automatic updates and configured update policies
-- Installed and maintained antivirus/endpoint protection tools
-- Enforced password policies and screen lock timers
-- Configured full-disk encryption (BitLocker for Windows, LUKS for Ubuntu)
-- Monitored system logs for suspicious activity
+## 📦 Supporting Software Setup
 
-### 4. ⚙️ Automation & Scripting
+### Productivity Tools
 
-- Created PowerShell scripts for Windows maintenance tasks
-- Developed Bash scripts for Ubuntu updates and backups
-- Scheduled automated backups and cleanup routines
-- Logged maintenance activities and generated system health reports
+- **Windows**: Microsoft Office Suite, Teams, OneDrive, Adobe Reader  
+- **Ubuntu**: LibreOffice, Thunderbird, GIMP, Zoom
+
+### Security Software
+
+- **Windows**: Microsoft Defender, Bitdefender, Malwarebytes  
+- **Ubuntu**: ClamAV, UFW (Uncomplicated Firewall), Fail2Ban
+
+### Utilities & Drivers
+
+- Printer and scanner drivers  
+- PDF tools, compression utilities  
+- Remote desktop and SSH clients  
+- Backup tools (e.g., Veeam Agent, Déjà Dup)
+
+---
+
+## 🔄 System Maintenance Tasks
+
+### Windows Maintenance
+
+- Applied updates via Windows Update and WSUS  
+- Performed disk cleanup and defragmentation  
+- Monitored system logs and event viewer  
+- Resolved driver conflicts and application errors  
+- Scheduled backups and restore points
+
+### Ubuntu Maintenance
+
+- Updated packages using `apt update && apt upgrade`  
+- Cleaned unused packages with `autoremove`  
+- Monitored system performance using `top`, `htop`, and `journalctl`  
+- Configured cron jobs for automated tasks  
+- Performed kernel updates and reboot scheduling
+
+---
+
+## 🔐 Security & Compliance
+
+- Enforced password policies and screen lock timers  
+- Enabled full-disk encryption (BitLocker for Windows, LUKS for Ubuntu)  
+- Configured firewalls and access control rules  
+- Scheduled antivirus scans and patch deployments  
+- Logged and reviewed system activity for anomalies
 
 ---
 
@@ -54,25 +86,19 @@ This document outlines the routine maintenance, updates, and support tasks perfo
 
 | Task Area                  | Status       | Notes                          |
 |---------------------------|--------------|--------------------------------|
-| OS Updates & Patching     | ✅ Automated | Weekly schedule across all devices |
-| Disk Cleanup & Optimization| ✅ Completed | Improved system performance    |
-| Security Hardening        | ✅ Active    | Policies enforced on both OS types |
-| User Support              | ✅ Ongoing   | Helpdesk and remote assistance |
-| Backup & Recovery         | ✅ Configured| Local and cloud-based backups  |
+| OS Installation           | ✅ Completed | Across all organizational devices |
+| Software Deployment       | ✅ Standardized | Based on user roles and departments |
+| System Updates            | ✅ Automated | Weekly schedule via scripts and policies |
+| Security Hardening        | ✅ Active    | Policies enforced across platforms |
+| Backup & Recovery         | ✅ Configured| Local and cloud-based solutions |
 
 ---
 
-## 📁 Repository Structure
+## 📫 Contact
 
-```plaintext
-├── windows/
-│   └── powershell_scripts/
-│   └── gpo_templates.md
-├── ubuntu/
-│   └── bash_scripts/
-│   └── systemd_config.md
-├── docs/
-│   └── maintenance_checklist.md
-│   └── update_schedule.pdf
-├── reports/
-│   └── system_health_summary.xlsx
+For technical support, collaboration, or future upgrades:
+
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+- [Go back](/readme.md)

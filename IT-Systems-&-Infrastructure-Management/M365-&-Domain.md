@@ -61,15 +61,11 @@ This document outlines the configuration, management, and maintenance tasks perf
 
 ---
 
-## 📁 Repository Structure
+## 📫 Contact
 
-```plaintext
-├── scripts/
-│   └── user_provisioning.ps1
-│   └── mailbox_audit.ps1
-├── docs/
-│   └── m365_admin_guide.md
-│   └── domain_config_steps.md
-├── reports/
-│   └── compliance_audit_summary.pdf
-│   └── device_inventory.xlsx
+For technical support, collaboration, or future upgrades:
+
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+- [Go back](/readme.md)

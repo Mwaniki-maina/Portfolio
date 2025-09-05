@@ -49,18 +49,11 @@ This document outlines the configuration and administration of **user access con
 
 ---
 
-## 📁 Repository Structure
+## 📫 Contact
 
-```plaintext
-├── scripts/
-│   └── user_provisioning.ps1
-│   └── offboarding_cleanup.ps1
-├── policies/
-│   └── conditional_access.md
-│   └── mfa_enforcement_guide.md
-├── reports/
-│   └── access_audit_summary.pdf
-│   └── license_usage.xlsx
-├── docs/
-│   └── onboarding_checklist.md
-│   └── user_access_flowchart.png
+For technical support, collaboration, or future upgrades:
+
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+- [Go back](/readme.md)
