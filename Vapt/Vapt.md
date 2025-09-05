@@ -69,7 +69,7 @@ For questions or collaboration, feel free to reach out:
 - **Email**: muhindi17@gmail.com  
 - **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
 - **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
-
+- [Go back](/readme.md)
 ---
 
 Thanks for checking out this project! 🕵️‍♂️

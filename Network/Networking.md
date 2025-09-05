@@ -70,6 +70,7 @@ For technical support, collaboration, or future upgrades:
 - **Email**: muhindi17@gmail.com  
 - **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
 - **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+- [Go back](/readme.md)
 ---
 
 > “Building a strong network isn’t just about cables and configs—it’s about empowering people to connect, learn, and grow.”

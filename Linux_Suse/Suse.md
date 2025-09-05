@@ -77,15 +77,11 @@ This project outlines the configuration and deployment of three SUSE Linux Enter
 
 ---
 
-## 📁 Repository Contents
+## 📫 Contact
 
-```plaintext
-├── ad_server/
-│   └── samba_ad_config.md
-├── file_server/
-│   └── smb_nfs_setup.md
-├── mail_server/
-│   └── postfix_dovecot_config.md
-├── docs/
-│   └── deployment_guide.pdf
-│   └── security_hardening.md
+For technical support, collaboration, or future upgrades:
+
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+- [Go back](/readme.md)

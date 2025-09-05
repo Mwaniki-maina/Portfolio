@@ -73,15 +73,11 @@ This project outlines the deployment and configuration of **ManageEngine Endpoin
 
 ---
 
-## 📁 Repository Contents
+## 📫 Contact
 
-```plaintext
-├── setup/
-│   └── endpoint_central_installation.md
-├── mdm/
-│   └── device_profile_config.md
-├── reports/
-│   └── compliance_summary.pdf
-├── docs/
-│   └── user_enrollment_guide.md
-│   └── admin_console_walkthrough.md
+For technical support, collaboration, or future upgrades:
+
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+- [Go back](/readme.md)

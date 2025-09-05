@@ -59,14 +59,11 @@ This project documents the structured cable management and labeling process carr
 
 ---
 
-## 📁 Repository Contents
+## 📫 Contact
 
-```plaintext
-├── cable_map/
-│   └── rack_layout_diagram.png
-│   └── cable_labeling_scheme.md
-├── testing/
-│   └── cable_test_results.xlsx
-├── docs/
-│   └── maintenance_guide.md
-│   └── labeling_standards.pdf
+For technical support, collaboration, or future upgrades:
+
+- **Email**: muhindi17@gmail.com  
+- **LinkedIn**: [linkedin.com/in/stephen-m-maina](https://www.linkedin.com/in/stephen-m-maina)  
+- **GitHub**: [github.com/Mwaniki-maina](https://github.com/Mwaniki-maina/Portfolio)
+- [Go back](/readme.md)
