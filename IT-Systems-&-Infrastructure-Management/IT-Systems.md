@@ -11,7 +11,7 @@ This document outlines my responsibilities and accomplishments in managing and m
 - Configured security policies including MFA, conditional access, and data loss prevention (DLP)
 - Administered domain-connected machines via Active Directory and Group Policy
 - Monitored device compliance and performed remote troubleshooting
-- [view more here](IT-Systems-&-Infrastructure-Management/M365-&-Domain.md)
+- [view more here](/IT-Systems-&-Infrastructure-Management/M365-&-Domain.md)
 ---
 
 ## 🌐 2. Network Administration & Security
